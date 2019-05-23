@@ -1,2 +1,11 @@
 import React from 'react';
-import './Display.css';
+
+const CalcDisplay = (props) => {
+  return (
+    <div className={`calcDisplay`}>
+      <p>{props.text}</p>
+    </div>
+  )
+}
+
+export default CalcDisplay
